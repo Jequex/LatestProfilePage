@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
 
 :root{
-    --background: #000000;
+    --background: #08073f;
     --textcolor: #383838;
     --circles: #7f8181;
     --whitetext: #e2e2e2;
@@ -14,7 +14,7 @@
     position: fixed;
     bottom: 1rem;
     right: 10rem;
-    background-color: darkorange;
+    background-color: #ff8c00;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@
     height: 0;
     border-right: 0.7rem solid transparent;
     border-left: 0.7rem solid transparent;
-    border-bottom: 0.7rem solid black;
+    border-bottom: 0.7rem solid var(--background);
 }
 
 html{
@@ -292,7 +292,7 @@ body{
 .form-container button{
     width: 25rem;
     height: 2rem;
-    background-color: rgb(99, 46, 46);
+    background-color: rgb(153, 48, 66);
     border: none;
     color: rgb(255, 255, 255);
     letter-spacing: 0.5rem;
