@@ -42,7 +42,6 @@ body{
     font-family: 'Catamaran', sans-serif;
     width: 90vw;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 .inner-circle{
@@ -79,19 +78,6 @@ body{
     padding-bottom: 10%;
 }
 
-.links{
-    position: fixed;
-    width: 9rem;
-    background-color: var(--background);
-    z-index: 100;
-    top: 1rem;
-    right: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
 .links a{
     color: var(--textcolor);
     text-decoration: none;
@@ -99,11 +85,6 @@ body{
     padding-left: 0.5rem;
     font-size: 1.4rem;
     color: var(--whitetext);
-}
-
-.links a:hover{
-    background-color: var(--circles);
-    width: 100%;
 }
 
 .social-links a{
@@ -379,17 +360,7 @@ body{
     .back-to-home{
         right: 2rem;
     }
-    .links{
-        flex-direction: row;
-        width: 90vw;
-        right: 2.8rem;
-        top: 90%;
-        height: 10vh;
-    }
     .links a{
-        font-size: smaller;
-    }
-    .links a:hover{
-        width: 5rem;
+        font-size: small;
     }
 }
