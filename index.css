@@ -302,6 +302,14 @@ body{
     font-weight: 600;
 }
 
+.links{
+    position: fixed;
+    width: 90vw;
+    height: 90vh;
+    background-color: #08073f69;
+    top: 5vw;
+}
+
 @media(max-width: 1200px){
     .services-badges{
         flex-wrap: wrap;
