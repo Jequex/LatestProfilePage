@@ -11,11 +11,7 @@ const toggle = () => {
     line1.classList.toggle('line1-active')
     line3.classList.toggle('line3-active')
     link.forEach((linker, index) => {
-        if (linker.style.animation) {
-            linker.style.animation = ''
-        } else {
-            linker.style.animation = `linksFade 0.5s ease forwards ${index/3}s`
-        }
+        linker.classList.toggle('link-fade')
     })
 }
 
